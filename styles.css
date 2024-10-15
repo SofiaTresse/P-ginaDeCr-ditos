@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin: 40px 0; /* Espaço acima e abaixo do título */
+    text-align: center; /* Garante que o título fique centralizado */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.credit-section {
+    margin-bottom: 40px; /* Espaçamento entre seções */
+}
+
+.credits {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as colunas se movam para a próxima linha se não houver espaço suficiente */
+    justify-content: space-around; /* Espaçamento entre as "pessoas" */
+}
+
+.person {
+    text-align: center;
+    margin: 20px; /* Adiciona espaçamento entre as "pessoas" */
+}
+
+.person h3 {
+    font-size: 1.5em;
+    margin: 10px 0; /* Adiciona espaçamento em cima e embaixo do nome */
+}
+
+.person img {
+    width: 180px; /* Aumenta a largura da imagem */
+    height: 180px; /* Aumenta a altura da imagem */
+    border-radius: 15%;
+    object-fit: cover;
+}
+
+.icons {
+    margin-top: 10px; /* Aumenta o espaçamento acima dos ícones */
+}
+
+.icons a img {
+    width: 40px;  /* Tamanho reduzido */
+    height: 40px; /* Para manter a proporção quadrada */
+    margin: 0; /* Remove a margem */
+    padding: 0; /* Adiciona padding 0 caso o problema seja causado por padding */
+}
+
+.icons a {
+    display: inline-block; /* Altera o display dos links para inline-block */
+    margin: 0; /* Remove a margem */
+    padding: 0; /* Remove padding */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
